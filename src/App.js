@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>creating movie app</h1>
+      <h1>creating single page movie app</h1>
     </>
   )
 }
