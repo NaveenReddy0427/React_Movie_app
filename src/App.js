@@ -1,9 +1,16 @@
-function App() {
-  return (
-    <>
-      <h1>creating single page movie app</h1>
-    </>
-  )
+import React from "react";
+import MovieList from "./MovieList";
+import Navbar  from "./Navbar";
+
+class App extends React.Component{
+  render(){
+    return(
+      <>
+      <Navbar/>
+      <MovieList/> 
+      </>
+    )
+  }
 }
 
-export default App;
+export default App
